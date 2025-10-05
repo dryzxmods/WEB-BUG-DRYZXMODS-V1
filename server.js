@@ -86,7 +86,7 @@ const pino = require("pino");
 const { Telegraf, Markup } = require("telegraf");
 
 const app = express();
-const PORT = process.env.PORT || 6226;
+const PORT = process.env.PORT || 3534;
 
 app.use(express.json());
 app.use(express.static('public'));
